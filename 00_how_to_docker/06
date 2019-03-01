@@ -1,0 +1,17 @@
+********************************************************************************
+                                                                                
+                                                          :::      ::::::::     
+     06                                                 :+:      :+:    :+:     
+                                                      +:+ +:+         +:+       
+     By: khou <marvin@42.fr>                        +#+  +:+       +#+          
+                                                  +#+#+#+#+#+   +#+             
+     Created: 2019/02/28 23:44:12 by khou              #+#    #+#               
+     Updated: 2019/02/28 23:51:10 by khou             ###   ########.fr         
+                                                                                
+********************************************************************************
+
+docker pull nginx
+docker tag nginx overlord
+docker rmi nginx
+
+#rename image: https://docs.docker.com/engine/reference/commandline/tag/
