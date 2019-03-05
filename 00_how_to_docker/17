@@ -1,0 +1,7 @@
+################################     17     ####################################
+#Display all the currently active containers on the Char virtual machine
+
+docker container ls
+
+#docker container ls: https://docs.docker.com/engine/reference/commandline/container_ls/
+#or docker ps list containers

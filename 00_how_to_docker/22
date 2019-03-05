@@ -1,0 +1,9 @@
+################################     22     ####################################
+#Turn Aiur into a slave of the local swarm in which Char is leader
+
+docker-machine start Aiur
+docker swarm init --advertise-addr $(docker-machine ip Aiur)
+docker swarm join
+
+#Add nodes to the swarm: https://docs.docker.com/engine/swarm/swarm-tutorial/add-nodes/
+#to check: docker node ls
