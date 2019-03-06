@@ -1,3 +1,6 @@
-docker-machine rm
+################################     33     ####################################
+#Delete all the container images stored on the Char virtual machine, in one command
+
+docker rmi $(docker images -a -q)
 
 #install and remove: https://docs.docker.com/machine/install-machine/

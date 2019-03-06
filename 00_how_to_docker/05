@@ -2,3 +2,7 @@
 docker run hello-world
 
 #Test Docker installation: https://docs.docker.com/get-started/
+#When you call run, the Docker client finds the image (hello-world in this case), loads up the container and then runs a command in that container
+#In our case, we didn't provide a command, so the container booted up, ran an empty command and then exited
+#If there is no image locally, docker run will pull the image then run it.
+#In the case that the image exists locally, docker run does not pull down the latest image.
