@@ -1,4 +1,4 @@
 ################################     01     ####################################
-docker-machine create --driver=virtualbox char
+docker-machine create --driver=virtualbox Char
 
 #install and remove: https://docs.docker.com/machine/install-machine/

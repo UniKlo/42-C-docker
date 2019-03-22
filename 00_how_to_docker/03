@@ -1,5 +1,5 @@
 ################################     03     ####################################
-eval $(docker-machine env char)
+eval $(docker-machine env Char)
 
 # Define the variables needed by your virtual machine Char in the general env of your
 # terminal, so that you can run the docker ps command without errors. You have

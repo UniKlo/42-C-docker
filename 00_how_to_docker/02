@@ -1,5 +1,5 @@
 ################################     02     ####################################
 
-docker-machine ip char
+docker-machine ip Char
 
-#get the ip address of char virtual machine: https://docs.docker.com/machine/reference/ip/
+#get the ip address of Char virtual machine: https://docs.docker.com/machine/reference/ip/
