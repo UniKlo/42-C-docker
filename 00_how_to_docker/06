@@ -6,8 +6,7 @@
 # http://<ip-de-Char>:5000 on your web browser.
 
 docker pull nginx
-docker rename nginx overlord
-docker run -d --restart always --publish 5000:80 overlord
+docker run -d --restart always --publish 5000:80 name overlord nginx
 
 #download -- pull
 #***image is different than container
